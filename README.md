@@ -21,6 +21,10 @@ bash autostaker.sh
 ```
 
 ## Mac OS Setup
+Install Homebrew (if you don't have it yet):
+```
+mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+```
 Install T-Bears and its dependancies:
 ```
 brew install leveldb autoconf automake libtool pkg-config && pip install tbears
