@@ -36,7 +36,7 @@ You should be all set now and ready for your first test ride:
 bash autostaker.sh
 ```
 
-## Run AutoStaker automatically
+## Run ICX AutoStaker automatically
 If you have a system that is running 24/7, you can add it to cron:
 ```
 crontab -e
@@ -45,7 +45,7 @@ Create new entry:
 ```
 0 6 * * * bash autostaker.sh
 ```
-This will run AutoStaker (located in your home directory) every morning at 6AM. You can use [Crontab Guru](https://crontab.guru) to generate your entry.
+This will run ICX AutoStaker (located in your home directory) every morning at 6AM. You can use [Crontab Guru](https://crontab.guru) to generate your entry.
 
 Feel free to discuss what other ways this script could be regularly executed:
 - OS startup
