@@ -1,0 +1,1 @@
+wsl cd ~; bash autostaker.sh
