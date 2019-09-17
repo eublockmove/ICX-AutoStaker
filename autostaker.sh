@@ -9,7 +9,7 @@ myICXaddress="ICX_ADDRESS" #your icx address
 # DO NOT TOUCH BELOW IF YOU DON'T KNOW WHAT YOU ARE DOING
 #
 endpoint="https://ctz.solidwallet.io/api/v3" #run by ICON Foundation
-myPREPaddress="hx5b97bbec2e555289351806103833a465b7fbbd47" #blockmove - if you like this script, then why not vote for us? ;)
+myPREPaddress="hx5b97bbec2e555289351806103833a465b7fbbd47"
 
 #ISCore JSON templates
 queryIScore=$(cat <<EOF
@@ -84,6 +84,7 @@ else
     #claim IScore
     echo $claimIScore > temp.json
     tbears sendtx temp.json -u $endpoint -k $keystore -p $password
+    sleep 5 #wait for TX to go through
 
     #get balance available for staking
     response="$(tbears balance -u $endpoint $myICXaddress)"
@@ -129,6 +130,7 @@ EOF
     #stake it all
     echo $setStake > temp.json
     tbears sendtx temp.json -u $endpoint -k $keystore -p $password
+    sleep 5 #wait for TX to go through
 
     #get total voting power
     echo $getStake > temp.json
