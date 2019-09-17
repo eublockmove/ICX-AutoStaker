@@ -42,7 +42,7 @@ Feel free to discuss what other ways this script could be regularly executed:
 
 Known limitations:
 - voting only for 1 candidate at the moment (Blockmove by default)
-- running script too often will result useless transactions. It's recommended to run it once a day at the moment.
+- running script too often will result in useless transactions. It's recommended to run it once a day at the moment.
 
 ## Feedback
 As always, we'd love to hear your feedback and ideas! The best place to reach us is our [Telegram group](https://t.me/blockmove).
