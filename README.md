@@ -21,7 +21,20 @@ bash autostaker.sh
 ```
 
 ## Mac OS Setup
-TODO
+Install T-Bears and its dependancies:
+```
+brew install leveldb autoconf automake libtool pkg-config && pip install tbears
+```
+Download ICX AutoStaker:
+```
+wget ADD_DOWNLOAD_LINK
+```
+Export your keystore from ICONex and copy it to the same directory. Now open autostaker.sh and edit variables keystore, password and myICXaddress on the top. **Warning: use this only on a secure system! If your keystore in combination with password leaks, you might lose all your ICX!**
+
+You should be all set now and ready for your first test ride:
+```
+bash autostaker.sh
+```
 
 ## Run AutoStaker automatically
 If you have a system that is running 24/7, you can add it to cron:
