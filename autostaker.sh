@@ -138,7 +138,7 @@ EOF
     response="${response##*\"stake\": \"}"
     voting="${response%%\"*}"
 
-    #setStake JSON template
+    #setDelegation JSON template
     setDelegation=$(cat <<EOF
 {
     "jsonrpc": "2.0",
