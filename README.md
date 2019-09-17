@@ -55,6 +55,7 @@ Feel free to discuss what other ways this script could be regularly executed:
 - OS startup
 - remote Linux VPS
 - Raspberry Pi
+- Windows 10 support through WSL
 - ... we're open to ideas / your tutorials
 
 Known limitations:
