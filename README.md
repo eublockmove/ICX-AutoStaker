@@ -20,7 +20,7 @@ sudo apt update && sudo apt -y upgrade && sudo apt -y install pkg-config python3
 ```
 Download ICX AutoStaker:
 ```
-wget ADD_DOWNLOAD_LINK
+wget https://raw.githubusercontent.com/eublockmove/ICX-AutoStaker/master/autostaker.sh
 ```
 Export your keystore from ICONex and copy it to the same directory. Now open autostaker.sh and edit variables keystore, password and myICXaddress on the top. **Warning: use this only on a secure system! If your keystore in combination with password leaks, you might lose all your ICX!**
 
@@ -32,7 +32,7 @@ bash autostaker.sh
 ## Run ICX AutoStaker after login (Windows 10)
 Download batch script calling ICX AutoStaker from Linux Subsystem:
 ```
-wget ADD_DOWNLOAD_LINK
+wget https://raw.githubusercontent.com/eublockmove/ICX-AutoStaker/master/run.bat
 ```
 Press Winkey+R and open:
 ```
@@ -43,7 +43,7 @@ Copy the run.bat into this directory and you're all set! Every time you log in t
 ## Run ICX AutoStaker as a Scheduled Task (Windows 10)
 Download batch script calling ICX AutoStaker from Linux Subsystem:
 ```
-wget ADD_DOWNLOAD_LINK
+wget https://raw.githubusercontent.com/eublockmove/ICX-AutoStaker/master/run.bat
 ```
 Follow [this tutorial](https://www.technipages.com/scheduled-task-windows) and create a Scheduled Task executing the batch file according to your criteria.
 
@@ -54,7 +54,7 @@ sudo apt update && sudo apt -y upgrade && sudo apt -y install pkg-config python3
 ```
 Download ICX AutoStaker:
 ```
-wget ADD_DOWNLOAD_LINK
+wget https://raw.githubusercontent.com/eublockmove/ICX-AutoStaker/master/autostaker.sh
 ```
 Export your keystore from ICONex and copy it to the same directory. Now open autostaker.sh and edit variables keystore, password and myICXaddress on the top. **Warning: use this only on a secure system! If your keystore in combination with password leaks, you might lose all your ICX!**
 
@@ -81,7 +81,7 @@ brew install python3 leveldb autoconf automake libtool pkg-config && pip install
 ```
 Download ICX AutoStaker:
 ```
-wget ADD_DOWNLOAD_LINK
+wget https://raw.githubusercontent.com/eublockmove/ICX-AutoStaker/master/autostaker.sh
 ```
 Export your keystore from ICONex and copy it to the same directory. Now open autostaker.sh and edit variables keystore, password and myICXaddress on the top. **Warning: use this only on a secure system! If your keystore in combination with password leaks, you might lose all your ICX!**
 
