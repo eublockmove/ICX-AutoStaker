@@ -38,7 +38,7 @@ shell:startup
 ```
 Copy the run.bat into this directory and you're all set! Every time you log in to your Windows, ICX AutoStaker is going to check if there is more than 1 ICX to claim. If there is, then it will automatically claim, stake and vote.
 
-## Linux Setup (Tested on Ubuntu 18.04)
+## Linux Setup (Ubuntu 18.04)
 Install T-Bears and its dependancies:
 ```
 sudo apt update && sudo apt -y upgrade && sudo apt -y install pkg-config python3-pip libsecp256k1-dev && pip3 install tbears
@@ -53,6 +53,12 @@ You should be all set now and ready for your first test ride:
 ```
 bash autostaker.sh
 ```
+
+## Run ICX AutoStaker after login (Ubuntu 18.04)
+```
+echo "bash autostaker.sh" >> .profile
+```
+Change path if the script is located in other place than your home directory.
 
 ## Mac OS Setup
 Install Homebrew (if you don't have it yet):
@@ -84,16 +90,6 @@ Create new entry:
 0 6 * * * bash autostaker.sh
 ```
 This will run ICX AutoStaker (located in your home directory) every morning at 6AM. You can use [Crontab Guru](https://crontab.guru) to generate your entry.
-
-Feel free to discuss what other ways this script could be regularly executed:
-- OS startup
-- remote Linux VPS
-- Raspberry Pi
-- Windows 10 support through WSL
-- ... we're open to ideas / your tutorials
-
-Known limitations:
-- voting only for 1 candidate at the moment (Blockmove by default)
 
 ## Feedback
 As always, we'd love to hear your feedback and ideas! The best place to reach us is our [Telegram group](https://t.me/blockmove).
