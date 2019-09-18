@@ -62,13 +62,13 @@ Change path if the script is located in other place than your home directory.
 Every time you log in to your Ubuntu, ICX AutoStaker is going to check if there is more than 1 ICX to claim. If there is, then it will automatically claim, stake and vote.
 
 ## Mac OS Setup
-Install Homebrew (if you don't have it yet):
+Install Homebrew:
 ```
 mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
 ```
 Install T-Bears and its dependancies:
 ```
-brew install leveldb autoconf automake libtool pkg-config && pip install tbears
+brew install python3 leveldb autoconf automake libtool pkg-config && pip install tbears
 ```
 Download ICX AutoStaker:
 ```
