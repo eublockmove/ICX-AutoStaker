@@ -29,7 +29,7 @@ You should be all set now and ready for your first test ride:
 bash autostaker.sh
 ```
 
-## Run ICX AutoStaker after login (Windows 10)
+### Run ICX AutoStaker after login (Windows 10)
 Download batch script calling ICX AutoStaker from Linux Subsystem:
 ```
 wget https://raw.githubusercontent.com/eublockmove/ICX-AutoStaker/master/run.bat
@@ -40,7 +40,7 @@ shell:startup
 ```
 Copy the run.bat into this directory and you're all set! Every time you log in to your Windows, ICX AutoStaker is going to check if there is more than 1 ICX to claim. If there is, then it will automatically claim, stake and vote.
 
-## Run ICX AutoStaker as a Scheduled Task (Windows 10)
+### Run ICX AutoStaker as a Scheduled Task (Windows 10)
 Download batch script calling ICX AutoStaker from Linux Subsystem:
 ```
 wget https://raw.githubusercontent.com/eublockmove/ICX-AutoStaker/master/run.bat
@@ -63,7 +63,7 @@ You should be all set now and ready for your first test ride:
 bash autostaker.sh
 ```
 
-## Run ICX AutoStaker after login (Ubuntu 18.04)
+### Run ICX AutoStaker after login (Ubuntu 18.04)
 ```
 echo "bash autostaker.sh" >> ~/.profile
 ```
@@ -90,7 +90,7 @@ You should be all set now and ready for your first test ride:
 bash autostaker.sh
 ```
 
-## Run ICX AutoStaker automatically with Cron (Linux, Mac OS)
+### Run ICX AutoStaker automatically with Cron (Linux, Mac OS)
 If you have a system that is running 24/7, you can add it to Cron:
 ```
 crontab -e
