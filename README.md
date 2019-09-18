@@ -59,6 +59,7 @@ bash autostaker.sh
 echo "bash autostaker.sh" >> .profile
 ```
 Change path if the script is located in other place than your home directory.
+Every time you log in to your Ubuntu, ICX AutoStaker is going to check if there is more than 1 ICX to claim. If there is, then it will automatically claim, stake and vote.
 
 ## Mac OS Setup
 Install Homebrew (if you don't have it yet):
