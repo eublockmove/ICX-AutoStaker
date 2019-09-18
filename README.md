@@ -4,6 +4,8 @@
 This is a Bash Script automating the process of claiming I-Score (1 ICX minimum), staking and voting. It should be run once a day in order to gain effect of compouding and thus increasing earnings of ICX staking/voting.
 Crucial component of ICX AutoStaker is [T-Bears](https://github.com/icon-project/t-bears), tool developped by ICON Foundation which supports Linux and Mac OS. Therefore, ICX AutoStaker is also limited to these platforms. Windows 10 is supported by running Windows Subsystem for Linux.
 
+We also recommend subscribing to our [Notifier](https://notify.blockmove.eu/) to stay in touch with low productivity P-Rep notices.
+
 ## Windows 10 + Windows Subsystem for Linux
 Open PowerShell as Administrator and run:
 ```
