@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#  Blockmove ICX Autostaker script
+#  Blockmove ICX AutoStaker script
 #  Vote for Blockmove :: hx5b97bbec2e555289351806103833a465b7fbbd47
 #  A small script to auto-stake your ICX daily
 #  Copyright (c) 2019 Blockmove <hello@blockmove.eu>
