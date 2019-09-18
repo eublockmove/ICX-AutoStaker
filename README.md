@@ -24,6 +24,8 @@ wget https://raw.githubusercontent.com/eublockmove/ICX-AutoStaker/master/autosta
 ```
 Export your keystore from ICONex and copy it to the same directory. Now open autostaker.sh and edit variables keystore, password and myICXaddress on the top. **Warning: use this only on a secure system! If your keystore in combination with password leaks, you might lose all your ICX!**
 
+The default endpoint is ICON Foundation’s server. The default P-Rep address is the one for Blockmove, for 100% of your vote. Feel free to modify these settings to your taste.
+
 You should be all set by now and ready for your first test:
 ```
 bash autostaker.sh
@@ -58,7 +60,9 @@ wget https://raw.githubusercontent.com/eublockmove/ICX-AutoStaker/master/autosta
 ```
 Export your keystore from ICONex and copy it to the same directory. Now open autostaker.sh and edit variables keystore, password and myICXaddress on the top. **Warning: use this only on a secure system! If your keystore in combination with password leaks, you might lose all your ICX!**
 
-You should be all set now and ready for your first test ride:
+The default endpoint is ICON Foundation’s server. The default P-Rep address is the one for Blockmove, for 100% of your vote. Feel free to modify these settings to your taste.
+
+You should be all set by now and ready for your first test:
 ```
 bash autostaker.sh
 ```
@@ -85,7 +89,9 @@ wget https://raw.githubusercontent.com/eublockmove/ICX-AutoStaker/master/autosta
 ```
 Export your keystore from ICONex and copy it to the same directory. Now open autostaker.sh and edit variables keystore, password and myICXaddress on the top. **Warning: use this only on a secure system! If your keystore in combination with password leaks, you might lose all your ICX!**
 
-You should be all set now and ready for your first test ride:
+The default endpoint is ICON Foundation’s server. The default P-Rep address is the one for Blockmove, for 100% of your vote. Feel free to modify these settings to your taste.
+
+You should be all set by now and ready for your first test:
 ```
 bash autostaker.sh
 ```
