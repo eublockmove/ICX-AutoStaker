@@ -38,6 +38,13 @@ shell:startup
 ```
 Copy the run.bat into this directory and you're all set! Every time you log in to your Windows, ICX AutoStaker is going to check if there is more than 1 ICX to claim. If there is, then it will automatically claim, stake and vote.
 
+## Run ICX AutoStaker as a Scheduled Task (Windows 10)
+Download batch script calling ICX AutoStaker from Linux Subsystem:
+```
+wget ADD_DOWNLOAD_LINK
+```
+Follow [this tutorial](https://www.technipages.com/scheduled-task-windows) and create a Scheduled Task executing the batch file according to your criteria.
+
 ## Linux Setup (Ubuntu 18.04)
 Install T-Bears and its dependancies:
 ```
