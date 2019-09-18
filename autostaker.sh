@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#  Blockmove ICX Autostaker script
+#  A small script to auto-stake your ICX daily
+#  Copyright (c) 2019 Blockmove <hello@blockmove.eu>
+#  https://github.com/eublockmove/ICX-AutoStaker/LICENSE
+
 # EDIT THESE VARIABLES
 keystore=keystore.txt #keystore file
 password="PASSWORD" #password to keystore
