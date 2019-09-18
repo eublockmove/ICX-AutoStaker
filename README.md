@@ -4,7 +4,7 @@
 This is a Bash Script automating the process of claiming I-Score (1 ICX minimum), staking and voting. It should be run once a day in order to compound interest and increase earnings of ICX staking/voting.
 Crucial component of ICX AutoStaker is [T-Bears](https://github.com/icon-project/t-bears), tool developped by ICON Foundation which supports Linux and Mac OS. Therefore, ICX AutoStaker is also limited to these platforms. Windows 10 is supported by running Windows Subsystem for Linux.
 
-We also recommend subscribing to our [Notifier](https://notify.blockmove.eu/) to stay in touch with low productivity P-Rep notices.
+We also recommend subscribing to our [Notifier](https://notify.blockmove.eu/) tool, to stay up-to-date with low productivity P-Rep email notices.
 
 ## Windows 10 + Windows Subsystem for Linux
 Open PowerShell as Administrator and run:
@@ -24,7 +24,7 @@ wget https://raw.githubusercontent.com/eublockmove/ICX-AutoStaker/master/autosta
 ```
 Export your keystore from ICONex and copy it to the same directory. Now open autostaker.sh and edit variables keystore, password and myICXaddress on the top. **Warning: use this only on a secure system! If your keystore in combination with password leaks, you might lose all your ICX!**
 
-You should be all set now and ready for your first test ride:
+You should be all set by now and ready for your first test:
 ```
 bash autostaker.sh
 ```
@@ -38,7 +38,7 @@ Press Winkey+R and open:
 ```
 shell:startup
 ```
-Copy the run.bat into this directory and you're all set! Every time you log in to your Windows, ICX AutoStaker is going to check if there is more than 1 ICX to claim. If there is, then it will automatically claim, stake and vote.
+Copy the run.bat into this directory and you're all set! Every time you log in to your Windows, ICX AutoStaker will check if there is more than 1 ICX to claim. If there is, it will automatically claim, stake and vote.
 
 ### Run ICX AutoStaker as a Scheduled Task (Windows 10)
 Download batch script calling ICX AutoStaker from Linux Subsystem:
@@ -68,7 +68,7 @@ bash autostaker.sh
 echo "bash autostaker.sh" >> ~/.profile
 ```
 Change path if the script is located in other place than your home directory.
-Every time you log in to your Ubuntu, ICX AutoStaker is going to check if there is more than 1 ICX to claim. If there is, then it will automatically claim, stake and vote.
+Every time you log in to your Ubuntu, ICX AutoStaker will check if there is more than 1 ICX to claim. If there is, it will automatically claim, stake and vote.
 
 ## Mac OS Setup
 Install Homebrew:
