@@ -107,5 +107,18 @@ Create new entry:
 ```
 This will run ICX AutoStaker (located in your home directory) every morning at 6AM. You can use [Crontab Guru](https://crontab.guru) to generate your entry.
 
+## Increased security
+If you want to increase your security, you can use tool such shc to encrypt the source code of autostaker.sh and create executable binary:
+```
+sudo apt install shc (brew shc for macOS)
+shc -f autostaker.sh
+```
+You can now execute autostaker through:
+```
+./autostaker.sh.x
+```
+Delete autostaker.sh and autostaker.sh.x.c
+***Please note, that this only marginally improves your security. If your system is compromised, there are still ways to retrieve your password. The key always remains to run this in secure environment!***
+
 ## Feedback
 As always, we'd love to hear your feedback and ideas! The best place to reach us is our [Telegram group](https://t.me/blockmove).
