@@ -10,12 +10,12 @@
 keystore=keystore.txt #keystore file
 password="PASSWORD" #password to keystore
 myICXaddress="ICX_ADDRESS" #your icx address
+myPREPaddress="hx5b97bbec2e555289351806103833a465b7fbbd47" #blockmove
 
 #
 # DO NOT TOUCH BELOW IF YOU DON'T KNOW WHAT YOU ARE DOING
 #
 endpoint="https://ctz.solidwallet.io/api/v3" #run by ICON Foundation
-myPREPaddress="hx5b97bbec2e555289351806103833a465b7fbbd47"
 
 #ISCore JSON templates
 queryIScore=$(cat <<EOF
